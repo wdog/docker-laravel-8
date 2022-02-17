@@ -1,3 +1,4 @@
+!source/.gitkeeep
 source/*
 dbdata/
 .env
