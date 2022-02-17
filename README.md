@@ -46,7 +46,6 @@ docker-compose build
 docker-compose up -d nginx
 ```
 
----
 
 ## Remember
 
@@ -101,6 +100,19 @@ cp .env.example .env
 
 ## Start Here
 
+### Install Libraries from Node
+
+```sh
+docker-compose run --rm npm install
+```
+
+Run compiler (Webpack.mix.js) or Show the view compiler in node:
+
+```sh
+docker-compose run --rm npm run dev
+# or
+docker-compose run --rm npm run production
+```
 
 
 ### Install Libraries from Composer
@@ -118,19 +130,6 @@ or update
 docker-compose run --rm composer update
 ```
 
-### Install Libraries from Node
-
-```sh
-docker-compose run --rm npm install
-```
-
-Run compiler (Webpack.mix.js) or Show the view compiler in node:
-
-```sh
-docker-compose run --rm npm run dev
-# or
-docker-compose run --rm npm run production
-```
 
 ### Clear/Clean the project
 
