@@ -82,6 +82,12 @@ DB_HOST=mysql
 DB_ROOT_PASSWORD=secret
 ```
 
+change permission to source folder if needed
+
+```bash
+chown 1000:1000 source
+```
+
 ### Make a new Project
 
 ```sh
@@ -90,7 +96,7 @@ docker-compose run --rm composer create-project laravel/laravel .
 
 ### Use extings sources
 
-Copy your project into `.sources` folder
+Copy your project into `./source` folder
 
 ### Copy Environment
 
