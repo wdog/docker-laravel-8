@@ -147,6 +147,7 @@ docker-compose run --rm artisan clear-compiled
 docker-compose run --rm artisan storage:link
 ```
 
+
 ### Generate Keys
 
 ```sh
@@ -154,6 +155,8 @@ docker-compose run --rm artisan key:generate
 ```
 
 ### Run migrations
+
+start the `docker-compose up -d `
 
 ```sh
 docker-compose run --rm artisan migrate --seed
